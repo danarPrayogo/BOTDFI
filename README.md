@@ -1,147 +1,154 @@
-<div align="center">
+![Build](https://img.shields.io/badge/Build-Passing-success?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0-purple?style=flat-square)
+![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material3-blue?style=flat-square)
 
 # 🛒 MaPen UMKM
 
-### Manajemen Penjualan UMKM Berbasis Android
+---
 
-![Platform](https://img.shields.io/badge/Platform-Android-success?style=for-the-badge)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.0-purple?style=for-the-badge)
-![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material3-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
+> [!TIP]
+>
+> 📱 **Demo Aplikasi**
+>
+> ▶️ **[Tonton Video Demo Aplikasi di Sini](#)**
+>
+> *(Klik tautan di atas untuk memutar video demo aplikasi langsung di GitHub)*
 
-Aplikasi modern untuk membantu UMKM mengelola transaksi, produk, stok, dan laporan penjualan secara digital.
+MaPen UMKM adalah aplikasi manajemen penjualan berbasis Android yang dirancang untuk membantu pelaku **Usaha Mikro, Kecil, dan Menengah (UMKM)** dalam mengelola transaksi, produk, stok, serta laporan penjualan secara digital.
 
-</div>
+Aplikasi ini dibangun menggunakan **Kotlin**, **Jetpack Compose**, dan **Material Design 3** dengan pendekatan **Clean Architecture** dan pola **MVVM**. Selain fitur manajemen penjualan, aplikasi juga mengintegrasikan **Smart Business Assistant** berbasis Artificial Intelligence (AI) untuk memberikan insight bisnis sederhana, rekomendasi stok, dan ringkasan penjualan secara otomatis.
+
+Proyek ini dikembangkan sebagai implementasi pengembangan aplikasi Android modern yang berfokus pada kemudahan penggunaan, performa, dan skalabilitas.
 
 ---
 
-## 📌 About Project
-
-> 💡 **MaPen UMKM** adalah aplikasi berbasis Android yang dirancang untuk membantu pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola transaksi penjualan secara digital, cepat, sederhana, dan efisien.
->
-> Aplikasi ini membantu pemilik usaha dalam mencatat transaksi, mengelola produk dan stok, melihat riwayat penjualan, serta memantau laporan penjualan secara berkala.
->
-> Selain itu, MaPen UMKM dilengkapi dengan fitur **Smart Business Assistant** berbasis Artificial Intelligence (AI) sederhana yang mampu memberikan ringkasan penjualan, rekomendasi stok, dan insight bisnis yang mudah dipahami.
-
----
-
-## 👥 Team
+# 👥 Tim Pengembang
 
 <table>
     <tr>
         <th>Nama</th>
         <th>NIM</th>
         <th>Role</th>
-        <th>GitHub</th>
     </tr>
     <tr>
         <td>Danar Prayogo</td>
         <td>123140015</td>
         <td>Lead & Android Developer</td>
-        <td><a href="https://github.com/danarPrayogo">@danarPrayogo</a></td>
     </tr>
     <tr>
         <td>Exaudi Amin Hitasoit</td>
         <td>123140161</td>
         <td>Backend & AI Developer</td>
-        <td><a href="https://github.com/16-123140161-ExaudiAminHutasoit">@ExaudiAminHitasoit</a></td>
     </tr>
 </table>
 
 ---
 
-## 📝 Description
+# 📝 Deskripsi
 
-MaPen UMKM adalah aplikasi manajemen penjualan yang ditujukan untuk membantu pemilik UMKM mengelola aktivitas usaha sehari-hari.
+MaPen UMKM merupakan aplikasi manajemen penjualan yang ditujukan untuk membantu pemilik UMKM dalam mengelola aktivitas usaha sehari-hari secara lebih efisien.
 
-Melalui aplikasi ini, pengguna dapat melakukan pencatatan transaksi penjualan, mengelola data produk, memantau stok barang, melihat riwayat transaksi, serta memperoleh laporan penjualan dengan tampilan yang modern dan mudah digunakan.
+Melalui aplikasi ini, pengguna dapat:
 
-Aplikasi ini juga mengintegrasikan fitur AI sederhana melalui **Smart Business Assistant** untuk membantu pengguna memahami kondisi bisnis, seperti produk paling laris, stok yang hampir habis, serta ringkasan laporan penjualan harian maupun bulanan.
+- Mencatat transaksi penjualan
+- Mengelola data produk
+- Memantau stok barang
+- Melihat riwayat transaksi
+- Menghasilkan laporan penjualan
+- Mendapatkan insight bisnis sederhana melalui AI
 
----
-
-## ✨ Features
-
-### 🟢 Minimum Features
-
-| Status | Feature |
-|---------|----------|
-| ⬜ | Login Page |
-| ⬜ | Dashboard Penjualan |
-| ⬜ | Manajemen Produk |
-| ⬜ | Transaksi Penjualan |
-| ⬜ | Riwayat & Penyimpanan |
-| ⬜ | Laporan Penjualan |
-
-### 🤖 Bonus Features
-
-| Status | Feature |
-|---------|----------|
-| ⬜ | Analisis Penjualan Otomatis |
-| ⬜ | Rekomendasi Produk & Prediksi Stok |
-| ⬜ | Ringkasan Laporan Otomatis |
-| ⬜ | Smart Search |
-| ⬜ | Insight Penjualan |
+Aplikasi dirancang dengan tampilan modern, intuitif, dan mudah digunakan sehingga cocok digunakan oleh berbagai jenis usaha kecil dan menengah.
 
 ---
 
-## 📱 Main Screens
+# ✨ Fitur Aplikasi
 
-| Screen | Deskripsi |
-|---------|------------|
-| 🔐 Login Screen | Halaman masuk pengguna sebelum mengakses aplikasi |
-| 📊 Dashboard Penjualan | Menampilkan ringkasan kondisi bisnis |
-| 📦 Manajemen Produk | Mengelola data produk dan stok |
-| 🛒 Transaksi Penjualan | Mencatat transaksi dan menghitung total belanja |
-| 📜 Riwayat Transaksi | Menampilkan histori transaksi |
-| 📈 Laporan Penjualan | Menampilkan laporan berdasarkan periode |
-| 🤖 Smart Business Assistant | Menampilkan insight dan rekomendasi bisnis |
+## 🟢 Minimum Features
+
+| Status | Feature | Deskripsi |
+|----------|----------|----------|
+| ⬜ | Login Page | Halaman autentikasi pengguna |
+| ⬜ | Dashboard Penjualan | Ringkasan performa bisnis |
+| ⬜ | Manajemen Produk | CRUD produk dan stok |
+| ⬜ | Transaksi Penjualan | Pencatatan transaksi |
+| ⬜ | Riwayat Transaksi | Histori transaksi |
+| ⬜ | Laporan Penjualan | Laporan harian, mingguan, bulanan |
 
 ---
 
-## 🧭 User Flow
+## 🤖 Bonus Features (AI)
+
+| Status | Feature | Deskripsi |
+|----------|----------|----------|
+| ⬜ | Analisis Penjualan Otomatis | Menampilkan produk terlaris |
+| ⬜ | Prediksi Stok | Memberikan rekomendasi restock |
+| ⬜ | Ringkasan Laporan Otomatis | Ringkasan harian & bulanan |
+| ⬜ | Smart Search | Pencarian produk lebih cepat |
+| ⬜ | Insight Penjualan | Analisis pola transaksi |
+
+---
+
+# 📱 Main Screens
+
+| Screen | Keterangan |
+|----------|----------|
+| 🔐 Login Screen | Halaman masuk pengguna |
+| 📊 Dashboard | Ringkasan kondisi bisnis |
+| 📦 Manajemen Produk | Pengelolaan produk dan stok |
+| 🛒 Transaksi Penjualan | Pencatatan transaksi |
+| 📜 Riwayat Transaksi | Histori transaksi |
+| 📈 Laporan Penjualan | Laporan berdasarkan periode |
+| 🤖 Smart Business Assistant | Insight dan rekomendasi bisnis |
+
+---
+
+# 🧭 User Flow
 
 ```text
 Start
-  │
-  ▼
+ │
+ ▼
 Login
-  │
-  ▼
+ │
+ ▼
 Dashboard
-  │
-  ├── Manajemen Produk
-  │
-  ├── Transaksi Penjualan
-  │       │
-  │       ▼
-  │   Riwayat Transaksi
-  │
-  ▼
+ │
+ ├── Manajemen Produk
+ │
+ ├── Transaksi Penjualan
+ │      │
+ │      ▼
+ │  Riwayat Transaksi
+ │
+ ▼
 Laporan Penjualan
-  │
-  ▼
+ │
+ ▼
 Smart Business Assistant
-  │
-  ▼
+ │
+ ▼
 End
 ```
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white">
-  <img src="https://img.shields.io/badge/Material%20Design%203-6750A4?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Koin-FF6B6B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/SQLDelight-00C853?style=for-the-badge">
-</p>
+| Technology | Keterangan |
+|------------|------------|
+| Kotlin | Bahasa Pemrograman Utama |
+| Jetpack Compose | Framework UI Android |
+| Material Design 3 | Design System |
+| Koin | Dependency Injection |
+| SQLDelight | Local Database |
+| Navigation Compose | Navigasi Antar Halaman |
+| MVVM | Architecture Pattern |
+| Clean Architecture | Struktur Pengembangan |
 
 ---
 
-## 📂 Project Structure
+# 📂 Struktur Project
 
 ```text
 composeApp/
@@ -167,22 +174,28 @@ composeApp/
 
 ---
 
-## 🎨 UI/UX Design
+# 🎨 UI/UX Design
 
-> ✨ Modern & Clean Design
->
-> - Minimalis dan mudah digunakan
-> - Fokus pada kebutuhan UMKM
-> - Menggunakan Material Design 3
-> - Card Based Layout
-> - Rounded Button
-> - Search Bar
-> - Bottom Navigation
-> - Responsive Interface
+### Design Principles
 
-### 🎨 Color Palette
+- ✨ Modern
+- 🧹 Clean
+- 📱 Mobile First
+- 🚀 User Friendly
+- 🎯 Focused on UMKM Needs
 
-| Color | Hex Code |
+### Components
+
+- Card Layout
+- Rounded Button
+- Search Bar
+- Bottom Navigation
+- Dashboard Analytics
+- Responsive Layout
+
+### Color Palette
+
+| Color | Hex |
 |---------|---------|
 | Green Primary | `#16A34A` |
 | Green Dark | `#15803D` |
@@ -193,71 +206,83 @@ composeApp/
 
 ---
 
-## 🤖 Smart Business Assistant
+# 🤖 Smart Business Assistant
 
-Smart Business Assistant merupakan fitur pendukung berbasis AI sederhana yang membantu pengguna memahami kondisi bisnisnya.
+Smart Business Assistant merupakan fitur berbasis AI sederhana yang membantu pengguna memahami kondisi bisnis secara cepat.
 
-### Contoh Ringkasan AI
+### Contoh Output AI
 
 ```text
 📊 Ringkasan Penjualan Hari Ini
 
-• Total Pendapatan : Rp250.000
-• Total Transaksi : 10
-• Produk Terlaris : Es Teh
-• Stok Menipis : Kopi Susu (3 pcs)
+Total Pendapatan : Rp250.000
+Jumlah Transaksi : 10
+Produk Terlaris : Es Teh
+Stok Menipis : Kopi Susu (3 pcs)
 
 💡 Rekomendasi:
-Segera lakukan restock Kopi Susu untuk menghindari kehabisan stok.
+Segera lakukan restock Kopi Susu agar tidak kehabisan stok.
 ```
 
-Fitur AI pada aplikasi ini dirancang tetap ringan, realistis, dan mudah dikembangkan pada tahap awal pengembangan aplikasi.
+Fitur ini dirancang agar tetap ringan, mudah diimplementasikan, dan realistis untuk tahap awal pengembangan aplikasi.
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/username/mapen-umkm.git
 ```
 
-### Jalankan Project
+### Open Project
 
 ```bash
-# Buka menggunakan Android Studio
+Buka project menggunakan Android Studio
+```
 
-# Tunggu proses Gradle Sync selesai
+### Sync Gradle
 
-# Jalankan pada Emulator atau Device Android
+```bash
+Tunggu proses Gradle Sync selesai
+```
+
+### Run Application
+
+```bash
+Jalankan pada Emulator atau Android Device
 ```
 
 ---
 
-## 🎯 Project Goal
+# 🎯 Project Goal
 
-Tujuan utama dari MaPen UMKM adalah membantu pelaku UMKM dalam:
+Tujuan utama MaPen UMKM adalah membantu pelaku UMKM dalam:
 
 - Mengelola transaksi penjualan
 - Mengelola data produk
-- Memantau stok barang
+- Mengontrol stok barang
 - Melihat laporan penjualan
-- Mendapatkan insight bisnis sederhana melalui AI
+- Mendapatkan insight bisnis sederhana
 
-Aplikasi dirancang agar ringan, mudah digunakan, dan tetap modern dengan memanfaatkan Kotlin serta Jetpack Compose.
+Dengan pendekatan modern menggunakan Kotlin dan Jetpack Compose, aplikasi ini diharapkan menjadi solusi digital yang sederhana namun bermanfaat bagi pelaku UMKM.
 
 ---
 
-## 📌 Conclusion
+# 📌 Conclusion
 
-MaPen UMKM diharapkan dapat menjadi solusi sederhana bagi pelaku UMKM untuk melakukan pencatatan transaksi, mengelola produk, memantau stok, melihat laporan penjualan, serta memperoleh insight bisnis sederhana melalui bantuan AI.
+MaPen UMKM merupakan aplikasi manajemen penjualan berbasis Android yang menggabungkan kemudahan penggunaan, pencatatan transaksi, pengelolaan produk, laporan penjualan, dan fitur AI sederhana dalam satu platform.
 
-Dengan fitur yang fokus pada kebutuhan utama UMKM, aplikasi ini realistis untuk dikembangkan sebagai project Android modern berbasis Kotlin dan Jetpack Compose.
+Aplikasi ini dirancang untuk membantu UMKM melakukan digitalisasi proses bisnis secara bertahap dengan teknologi modern yang ringan dan mudah dikembangkan.
 
 ---
 
 <div align="center">
+
+### 🛒 MaPen UMKM
+
+Modern Sales Management for UMKM
 
 Made with ❤️ using Kotlin & Jetpack Compose
 
